@@ -1,14 +1,55 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
 .ipynb_checkpoints/
-data/raw/
-*.pdf
-*.png
-.env
+
+# Virtual environments
 venv/
 .venv/
+env/
+.env
+
+# Distribution / packaging
 *.egg-info/
 dist/
 build/
+
+# Data (large raw files)
+data/raw/
+data/*/raw/
+*.npy
+*.mat
+
+# Paper assets (PDFs, TeX, BibTeX - not for public repo)
+paper/
+*.pdf
+*.tex
+*.bib
+*.bbl
+*.blg
+*.aux
+*.log
+*.out
+
+# Figures: keep PNG, ignore PDF (publication vector format)
+figures/*.pdf
+!figures/*.png
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Secrets
+*.env
+*.key
+*.pem
