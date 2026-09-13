@@ -35,13 +35,3 @@ python src/eggplant/04_evaluate_table1.py
 
 ## Results
 Key results reproduced in `results/table1_results.csv` and `results/all_methods_bands.json`.
-
-## Citation
-```bibtex
-@inproceedings{le2026vnalpa,
-  title={VNAL-PA: Variational Quantum Algorithm for Hyperspectral Band Selection},
-  author={Le, Huu Phuc and ...},
-  booktitle={IEEE Quantum Computing and Engineering (QCE)},
-  year={2026}
-}
-```
