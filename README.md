@@ -208,34 +208,6 @@ python src/eggplant/07_exp_pareto.py
 ```
 > 📄 Full list: `results/cabbage/vnal_pa_summary.json`
 
----
-
-## 📝 Citation
-
-If you use this code, please cite:
-
-```bibtex
-@inproceedings{le2026vnalpa,
-  title={VNAL-PA: Variational Quantum Algorithm for Hyperspectral Band Selection},
-  author={Le, Huu Phuc and {co-authors}},
-  booktitle={2026 IEEE Quantum Computing and Engineering (QCE)},
-  pages={1--8},
-  year={2026},
-  organization={IEEE},
-  doi={10.1109/QCE59640.2026.000XX}
-}
-```
-
-```bibtex
-@software{vnal_pa_2026,
-  title={VNAL-PA Framework for Hyperspectral Band Selection},
-  author={Le, Huu Phuc},
-  year={2026},
-  url={https://github.com/LloydPhuc/VNAL-PA-framework-IEEE-Quantum-Week-2026-},
-  version={1.0.0},
-  doi={10.5281/zenodo.XXXXXXX}
-}
-```
 
 ---
 
@@ -257,8 +229,8 @@ If you use this code, please cite:
 ## 📬 Contact
 
 **Huu Phuc Le** — [@LloydPhuc](https://github.com/LloydPhuc)  
-📧 Email: `lehuuphuc@university.edu`  
-🏫 Affiliation: *Your University, Department of Quantum Engineering*
+📧 Email: `phuc.lehuuphuc@hcmut.edu.vn`  
+🏫 Affiliation: *Ho Chi Minh University of Technology*
 
 ---
 
