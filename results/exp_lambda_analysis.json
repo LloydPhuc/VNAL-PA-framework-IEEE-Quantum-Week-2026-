@@ -1,0 +1,76 @@
+{
+  "w": 0.1,
+  "sigma_rel": 0.0753465694746145,
+  "sigma_red": 43.46756270993109,
+  "lambda_star": 1.3536601967496003,
+  "lambda_universal": 6.1881608994267445,
+  "ratio_universal_over_star": 4.571428571428572,
+  "records": [
+    {
+      "lambda": 0.33841504918740006,
+      "lambda_over_star": 0.25,
+      "is_universal": false,
+      "feasible_ratio_late": 1.0,
+      "swaps_total": 12494.0,
+      "swaps_late": 0.0,
+      "T_last_swap": 0.014025143696937185,
+      "n_distinct_feasible_late": 0.0,
+      "best_Enorm": -26.576519558868274
+    },
+    {
+      "lambda": 0.6768300983748001,
+      "lambda_over_star": 0.5,
+      "is_universal": false,
+      "feasible_ratio_late": 1.0,
+      "swaps_total": 6521.333333333333,
+      "swaps_late": 0.0,
+      "T_last_swap": 0.050646568399976555,
+      "n_distinct_feasible_late": 0.0,
+      "best_Enorm": -24.28363004681579
+    },
+    {
+      "lambda": 1.3536601967496003,
+      "lambda_over_star": 1.0,
+      "is_universal": false,
+      "feasible_ratio_late": 1.0,
+      "swaps_total": 1668.3333333333333,
+      "swaps_late": 0.0,
+      "T_last_swap": 0.14106433597239235,
+      "n_distinct_feasible_late": 0.0,
+      "best_Enorm": -20.481072588283016
+    },
+    {
+      "lambda": 2.7073203934992005,
+      "lambda_over_star": 2.0,
+      "is_universal": false,
+      "feasible_ratio_late": 1.0,
+      "swaps_total": 123.0,
+      "swaps_late": 0.0,
+      "T_last_swap": 0.29749431521058667,
+      "n_distinct_feasible_late": 0.0,
+      "best_Enorm": -18.297399634436946
+    },
+    {
+      "lambda": 6.1881608994267445,
+      "lambda_over_star": 4.571428571428572,
+      "is_universal": true,
+      "feasible_ratio_late": 1.0,
+      "swaps_total": 0.0,
+      "swaps_late": 0.0,
+      "T_last_swap": 0.6021077506649872,
+      "n_distinct_feasible_late": 0.0,
+      "best_Enorm": -15.645345955792282
+    },
+    {
+      "lambda": 12.376321798853489,
+      "lambda_over_star": 9.142857142857144,
+      "is_universal": false,
+      "feasible_ratio_late": 1.0,
+      "swaps_total": 0.0,
+      "swaps_late": 0.0,
+      "T_last_swap": 0.6021077506649872,
+      "n_distinct_feasible_late": 0.0,
+      "best_Enorm": -15.645345955792282
+    }
+  ]
+}

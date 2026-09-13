@@ -1,0 +1,12 @@
+{
+  "K": 64,
+  "M": 20000,
+  "sigma_rel": 0.07609549618861058,
+  "sigma_red": 43.46000626089021,
+  "mu_rel": -1.5442441160439455,
+  "mu_red": 1427.0977309832717,
+  "sigma_ratio_red_over_rel": 571.1245531952387,
+  "w_balance_raw": 0.0017478711487125217,
+  "w_balance_normalized": 0.5,
+  "interpretation": "Khong chuan hoa: 1 thanh phan co sigma lon gap 571.1 lan -> can w=0.002 moi can bang (lech xa 0.5). Sau chuan hoa: w=0.5 can bang dung -> w la nut dieu khien trade-off co y nghia."
+}
