@@ -3,11 +3,10 @@
 [![IEEE QCE 2026](https://img.shields.io/badge/IEEE%20QCE-2026-00629B?logo=ieee&logoColor=white)](https://qce.quantum.ieee.org/2026/)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-10.1109/QCE59640.2026.000XX-blue)](https://doi.org/10.1109/QCE59640.2026.000XX)
 [![Reproducible](https://img.shields.io/badge/Reproducible-✓-brightgreen)](scripts/reproduce_table1.py)
 
 > **Variational Quantum Algorithm for Hyperspectral Band Selection using Parameterized Ansatz (VNAL-PA)**  
-> *IEEE Quantum Computing and Engineering Conference (QCE) 2026 — Accepted Paper*
+> *IEEE Quantum Computing and Engineering Conference (QCE) 2026 — Accepted for publication*
 
 ---
 
