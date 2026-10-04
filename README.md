@@ -33,29 +33,29 @@ This repository provides the **official reproduction code** for the VNAL-PA fram
 ```mermaid
 flowchart TD
     %% Data Layer
-    A[📡 Raw Hyperspectral Data<br/>CABBAGE / EGGPLANT] --> B[🔧 Data Loader & Preprocessing<br/>balanced_subset, MinMax/Standard scaling]
+    A["📡 Raw Hyperspectral Data<br/>CABBAGE / EGGPLANT"] --> B["🔧 Data Loader & Preprocessing<br/>balanced_subset, MinMax/Standard scaling"]
     
     %% Feature Engineering
-    B --> C[📊 Compute Relevance<br/>KSG Mutual Information<br/>(100-iter bootstrap, k=10)]
-    B --> D[🔗 Compute Redundancy<br/>Ledoit-Wolf Shrinkage<br/>|corr| matrix]
+    B --> C["📊 Compute Relevance<br/>KSG Mutual Information<br/>(100-iter bootstrap, k=10)"]
+    B --> D["🔗 Compute Redundancy<br/>Ledoit-Wolf Shrinkage<br/>|corr| matrix"]
     
     %% VNAL-PA Core
-    C --> E[⚛️ VNAL-PA Core Algorithm]
+    C --> E["⚛️ VNAL-PA Core Algorithm"]
     D --> E
     
-    E --> F[📈 Monte Carlo Energy Statistics<br/>σ_Rel, σ_Red on random K-subsets<br/><i>Eq.4</i>]
-    F --> G[🎯 Phase 1: Grid Search w*<br/>argmin E_norm (unsupervised)<br/><i>Eq.6</i>]
-    G --> H[⚖️ Phase 2: Binary Search λ*<br/>min λ s.t. VR ≥ 0.95<br/><i>Eq.8</i>]
-    H --> I[🔥 Phase 3: Final QUBO Solve<br/>Simulated Annealing (dwave-neal)<br/><i>Eq.9</i>]
-    I --> J[✅ Selected K Bands]
+    E --> F["📈 Monte Carlo Energy Statistics<br/>σ_Rel, σ_Red on random K-subsets<br/><i>Eq.4</i>"]
+    F --> G["🎯 Phase 1: Grid Search w*<br/>argmin E_norm (unsupervised)<br/><i>Eq.6</i>"]
+    G --> H["⚖️ Phase 2: Binary Search λ*<br/>min λ s.t. VR ≥ 0.95<br/><i>Eq.8</i>"]
+    H --> I["🔥 Phase 3: Final QUBO Solve<br/>Simulated Annealing (dwave-neal)<br/><i>Eq.9</i>"]
+    I --> J["✅ Selected K Bands"]
     
     %% Baselines
-    K[📐 Baseline Methods<br/>Top-MI, mRMR, DPP, Cluster,<br/>SPA, UVE, GA] --> L[🏁 Evaluation: SVM-RBF CV<br/>Stratified 5-fold]
+    K["📐 Baseline Methods<br/>Top-MI, mRMR, DPP, Cluster,<br/>SPA, UVE, GA"] --> L["🏁 Evaluation: SVM-RBF CV<br/>Stratified 5-fold"]
     J --> L
     
     %% Outputs
-    L --> M[📋 Table 1 Reproduction]
-    M --> N[📊 Publication Figures<br/>Lambda sweep, Pareto frontier,<br/>Variance norm, Band distribution]
+    L --> M["📋 Table 1 Reproduction"]
+    M --> N["📊 Publication Figures<br/>Lambda sweep, Pareto frontier,<br/>Variance norm, Band distribution"]
     
     %% Styling
     classDef core fill:#1f77b4,color:#fff,stroke:#333,stroke-width:2px
